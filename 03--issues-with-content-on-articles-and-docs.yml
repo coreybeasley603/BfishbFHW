@@ -8,7 +8,6 @@ body:
   - type: markdown
     attributes:
       value: If you are reporting an issue with an article on our news publication, please follow this link to send an email to our editorial team https://mailxto.com/lkj5n7
-  - type: textarea
     attributes:
       label: Describe the Issue
       description: A clear and concise description of the issue you encountered.
@@ -16,8 +15,6 @@ body:
       required: true
   - type: input
     attributes:
-      label: Affected Page
-      description: Add a link to the coding challenge with the problem.
     validations:
       required: true
   - type: textarea
@@ -28,11 +25,9 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Recommended fix or suggestions
       description: A clear and concise description of how you want to update it.
     validations:
       required: true
-  - type: textarea
     attributes:
       label: Screenshots
       description: If applicable, add screenshots to help explain your problem. You can drag and drop `png`, `jpg`, `gif`, etc. in this box.
